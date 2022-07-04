@@ -2,7 +2,7 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=172.22.0.1;port=3306;dbname=yii_db',
+    'dsn' => 'mysql:host=host.docker.internal;port=3306;dbname=yii_db',
     'username' => 'root',
     'password' => 'root_password',
     'charset' => 'utf8',
